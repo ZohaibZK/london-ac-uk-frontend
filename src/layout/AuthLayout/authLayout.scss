@@ -1,0 +1,60 @@
+@import '../../styles/variables.scss';
+
+#auth-container {
+    .main-row {
+        height: 100vh;
+
+        .left-side {
+            background: linear-gradient(45deg, #1b153e, #DE2121);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem;
+
+            .logo {
+                height: max-content;
+                width: max-content;
+            }
+
+            .logo img {
+                width: 100px;
+            }
+
+            .left-content {
+                text-align: center;
+
+                h2 {
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                }
+
+                p {
+                    margin-top: 1rem;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .right-side {
+            background: var(--background-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #auth-container {
+        .main-row {
+            .left-side {
+                display: none;
+            }
+
+            .right-side {
+                width: 100%;
+            }
+        }
+    }
+}

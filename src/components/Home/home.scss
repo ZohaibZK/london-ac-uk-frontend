@@ -1,0 +1,26 @@
+#home-wrapper {
+    background: linear-gradient(45deg, #1b153e, #DE2121);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .row {
+        width: max-content;
+        color: var(--white);
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+        }
+    }
+}

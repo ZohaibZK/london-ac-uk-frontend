@@ -1,0 +1,8 @@
+@import '../../../styles/variables.scss';
+
+label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: var(--text-color);
+}
